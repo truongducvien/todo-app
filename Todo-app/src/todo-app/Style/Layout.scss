@@ -1,0 +1,25 @@
+$theme-color: #675BF1;
+
+
+@import 'Header';
+@import 'SideBar';
+@import 'Content';
+
+
+
+.app-area{
+   position: relative;
+   width: 1024px;
+   height: 640px;
+   margin: 20px auto;
+   background-color: #FFFEFE;
+   box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, 0.548);
+
+   .content{
+      position: absolute; 
+      right: 0;
+      bottom: 0;
+      width: 874px;
+      height: 570px;
+   }
+}
